@@ -45,9 +45,9 @@ for i in range(1, len(data)):
     z_shift = shift_dist*np.sin(shift_dec)
      
     #Shifts coordinates based on exoplanet     
-    new_x = x + x_shift
-    new_y = y + y_shift
-    new_z = z + z_shift
+    new_x = x - x_shift
+    new_y = y - y_shift
+    new_z = z - z_shift
     
     #Cartesian to spherical   
     new_dist = np.sqrt((x - x_shift)**2 + (y - y_shift)**2 + (z - z_shift)**2)
