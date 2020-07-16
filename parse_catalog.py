@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #Coordinates of planet
 shift_ra = 0
 shift_dec = 0
-shift_dist = 10
+shift_dist = 0
 
 ralist = []
 declist = []
